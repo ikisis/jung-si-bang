@@ -1,0 +1,10 @@
+import scala.collection.mutable.Set
+
+val movieSet = Set("Hitch", "Poltergeist")
+movieSet += "Sharek"
+println(movieSet)
+
+import scala.collection.immutable.HashSet
+
+val hashSet = HashSet("Tomatoes", "Chilies")
+println(hashSet + "Coriander")
